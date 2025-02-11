@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.12 on win32)" generated="20250210 11:13:36.301" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\ozeia\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Criar um usuario novo">
+<msg timestamp="20250210 11:13:36.679" level="FAIL">No keyword with name 'Criar um usuario novo' found.</msg>
+<status status="FAIL" starttime="20250210 11:13:36.679" endtime="20250210 11:13:36.679"/>
+</kw>
+<kw name="Cadastrar o usuario criado na ServeRest">
+<arg>email=${EMAIL_TESTE}</arg>
+<arg>status_code_desejado=201</arg>
+<status status="NOT RUN" starttime="20250210 11:13:36.680" endtime="20250210 11:13:36.681"/>
+</kw>
+<kw name="Conferir se o usuario foi cadastrado corretamente">
+<status status="NOT RUN" starttime="20250210 11:13:36.681" endtime="20250210 11:13:36.681"/>
+</kw>
+<status status="PASS" starttime="20250210 11:13:36.317" endtime="20250210 11:13:47.621"/>
+</kw>
+<status status="PASS" starttime="20250210 11:13:36.317" endtime="20250210 11:13:47.621"/>
+</test>
+<status status="PASS" starttime="20250210 11:13:36.301" endtime="20250210 11:13:47.629"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
